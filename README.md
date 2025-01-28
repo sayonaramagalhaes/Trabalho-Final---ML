@@ -29,7 +29,8 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
  Link []
 
 Base de Dados
-O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato". As imagens foram usadas para treinar os modelos nas técnicas de Feature Extraction e Fine-Tuning.
+
+O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato". 
 Link dataset  Kaggle: https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset
 
 
