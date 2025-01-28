@@ -6,29 +6,23 @@ Programa de Pós-Graduação em Engenharia Elétrica e de Computação
 
 Disciplina: Aprendizado de Máquina
 
-Este repositório contém a solução para a atividade final da disciplina de Aprendizado de Máquina. O objetivo principal é aplicar e avaliar as técnicas de Transfer Learning (Aprendizado por Transferência) em um problema de classificação de imagens, comparando o desempenho de dois métodos:
-
+Este repositório contém a solução para a atividade final da disciplina de Aprendizado de Máquina. O objetivo principal é aplicar e avaliar as técnicas de Transfer Learning (Aprendizado por Transferência) comparando o desempenho de dois métodos:
 
 Técnicas Utilizadas
-1. Feature Extraction (Extração de Características)
-Nesta abordagem, utilizamos a parte convolucional do modelo AlexNet (pré-treinado) para extrair características das imagens. Essas características extraídas foram então usadas como entrada para um classificador simples, treinado para distinguir entre as classes "Cachorro" e "Gato". Não houve ajuste nas camadas convolucionais do AlexNet, apenas a adaptação do classificador final.
+Feature Extraction (Extração de Características)
+Nesta abordagem, usamos o modelo AlexNet pré-treinado para extrair características das imagens, a última camada do modelo foi removida, mantendo apenas as camadas convolucionais.
+As imagens foram processadas, e suas características foram extraídas e usadas para treinar um modelo de Regressão Logística. O modelo foi avaliado em termos de Acurácia e F1-Score.
 
-2. Fine-Tuning
-Neste método, realizamos o fine-tuning do modelo AlexNet. Usamos as camadas convolucionais do modelo pré-treinado, mas comparamos o desempenho ajustando as camadas finais (totalmente conectadas) para melhor adaptar o modelo ao nosso conjunto de dados específico. Esse processo envolve o ajuste de parâmetros do modelo durante o treinamento, buscando melhorar a performance de classificação.
+Fine-Tuning
+Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais e ajustando apenas a camada final, adaptando-o para a atividade de aprendizado de máquina. O modelo foi treinado por 5 épocas e avaliado com Acurácia, Precisão, Recall e F1-Score.
  
- Os modelos foram avaliados com base nas seguintes métricas:
- 
- Acurácia: Percentual de classificações corretas.
- Precisão: Capacidade de evitar falsos positivos.
- Recall: Capacidade de identificar todas as instâncias positivas.
- F1-Score: Média harmônica entre precisão e recall.
- 
-Ambos os métodos (Feature Extraction e Fine-Tuning) foram comparados para avaliar qual técnica proporciona melhores resultados 
-para a classificação do dataset "Cats vs Dogs".
  
  Vídeo Explicativo
-Um vídeo explicativo sobre as técnicas de Transfer Learning, e a aplicação que foi realizada, e as comparações entre as abordagens de Feature Extraction e Fine-Tuning, destacando os passos de implementação adaptaçoes, e os resultados obtidos 
-Link []
+ Um vídeo explicativo sobre as técnicas de Transfer Learning, e a 
+ aplicação que foi realizada, e as comparações entre as abordagens de 
+ Feature Extraction e Fine-Tuning, destacando os passos de implementação 
+ adaptaçoes, e os resultados obtidos 
+ Link []
 
 Base de Dados
 O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato". As imagens foram usadas para treinar os modelos nas técnicas de Feature Extraction e Fine-Tuning.
