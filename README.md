@@ -9,15 +9,19 @@ Disciplina: Aprendizado de Máquina
 Este repositório contém a solução para a atividade final da disciplina de Aprendizado de Máquina. O objetivo principal é aplicar e avaliar as técnicas de Transfer Learning (Aprendizado por Transferência) comparando o desempenho de dois métodos:
 
 Técnicas Utilizadas
+
 Feature Extraction (Extração de Características)
+
 Nesta abordagem, usamos o modelo AlexNet pré-treinado para extrair características das imagens, a última camada do modelo foi removida, mantendo apenas as camadas convolucionais.
 As imagens foram processadas, e suas características foram extraídas e usadas para treinar um modelo de Regressão Logística. O modelo foi avaliado em termos de Acurácia e F1-Score.
 
 Fine-Tuning
+
 Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais e ajustando apenas a camada final, adaptando-o para a atividade de aprendizado de máquina. O modelo foi treinado por 5 épocas e avaliado com Acurácia, Precisão, Recall e F1-Score.
  
  
  Vídeo Explicativo
+ 
  Um vídeo explicativo sobre as técnicas de Transfer Learning, e a 
  aplicação que foi realizada, e as comparações entre as abordagens de 
  Feature Extraction e Fine-Tuning, destacando os passos de implementação 
