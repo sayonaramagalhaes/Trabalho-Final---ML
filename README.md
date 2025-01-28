@@ -17,10 +17,12 @@ Nesta abordagem, utilizamos a parte convolucional do modelo AlexNet (pré-treina
 Neste método, realizamos o fine-tuning do modelo AlexNet. Usamos as camadas convolucionais do modelo pré-treinado, mas comparamos o desempenho ajustando as camadas finais (totalmente conectadas) para melhor adaptar o modelo ao nosso conjunto de dados específico. Esse processo envolve o ajuste de parâmetros do modelo durante o treinamento, buscando melhorar a performance de classificação.
  
  Os modelos foram avaliados com base nas seguintes métricas:
+ 
  Acurácia: Percentual de classificações corretas.
  Precisão: Capacidade de evitar falsos positivos.
  Recall: Capacidade de identificar todas as instâncias positivas.
  F1-Score: Média harmônica entre precisão e recall.
+ 
 Ambos os métodos (Feature Extraction e Fine-Tuning) foram comparados para avaliar qual técnica proporciona melhores resultados 
 para a classificação do dataset "Cats vs Dogs".
  
