@@ -10,7 +10,7 @@ Este repositório contém a solução para a atividade final da disciplina de Ap
 
 Técnicas Utilizadas
 
-Feature Extraction (Extração de Características)
+Feature Extractor (Extração de Características)
 
 Nesta abordagem, usamos o modelo AlexNet pré-treinado para extrair características das imagens, a última camada do modelo foi removida, mantendo apenas as camadas convolucionais.
 As imagens foram processadas, e suas características foram extraídas e usadas para treinar um modelo de Regressão Logística. O modelo foi avaliado em termos de Acurácia e F1-Score.
@@ -24,13 +24,14 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
  
  Um vídeo explicativo sobre as técnicas de Transfer Learning, e a 
  aplicação que foi realizada, e as comparações entre as abordagens de 
- Feature Extraction e Fine-Tuning, destacando os passos de implementação 
+ Feature Extractor e Fine-Tuning, destacando os passos de implementação 
  adaptaçoes, e os resultados obtidos 
  Link []
 
 Base de Dados
 
-O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato". 
+O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato".
+
 Link dataset  Kaggle: https://www.kaggle.com/datasets/shaunthesheep/microsoft-catsvsdogs-dataset
 
 
