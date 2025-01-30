@@ -25,6 +25,7 @@ Na abordagem de Fine- Tuning o modelo AlexNet pré-treinado foi utilizado com  a
  aplicação que foi realizada, e as comparações entre as abordagens de 
  Feature Extractor e Fine-Tuning, destacando os passos de implementação 
  adaptaçoes, e os resultados obtidos. 
+ 
  Assita ao vídeo aqui 
  Link :https://drive.google.com/file/d/1Zr9T1z7ZLDPJaMtzcdHPiQ7XJyHpp__E/view?usp=sharing
 
@@ -32,6 +33,7 @@ Na abordagem de Fine- Tuning o modelo AlexNet pré-treinado foi utilizado com  a
  Além do vídeo, foi elaborado um artigo no Medium detalhando a atividade realizada, com uma explicação sobre as técnicas 
  utilizadas, os resultados obtidos e as conclusões tiradas a partir da análise dos experimentos.
  Leia o artigo no Medium aqui
+ 
  Link :https://medium.com/@sayonaraufrn/universidade-federal-do-rio-grande-do-norte-bce54cbf8c10
 
 Base de Dados
