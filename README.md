@@ -26,10 +26,11 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
  aplicação que foi realizada, e as comparações entre as abordagens de 
  Feature Extractor e Fine-Tuning, destacando os passos de implementação 
  adaptaçoes, e os resultados obtidos 
+ 
  Link :https://drive.google.com/file/d/1Zr9T1z7ZLDPJaMtzcdHPiQ7XJyHpp__E/view?usp=sharing
 
  Artigo Medium
- Um artigo no Medium com a descrição da atividade realizada 
+ artigo no Medium com a descrição da atividade realizada 
  Link :https://medium.com/@sayonaraufrn/universidade-federal-do-rio-grande-do-norte-bce54cbf8c10
 
 Base de Dados
