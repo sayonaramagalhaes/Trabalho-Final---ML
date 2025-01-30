@@ -17,7 +17,7 @@ As imagens foram processadas, e suas características foram extraídas e usadas 
 
 Fine-Tuning
 
-Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais e ajustando apenas a camada final, adaptando-o para a atividade de aprendizado de máquina. O modelo foi treinado por 5 épocas e avaliado com Acurácia, Precisão, Recall e F1-Score.
+Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais e ajustando apenas a camada final, adaptando-o para a atividade de aprendizado de máquina. O modelo foi treinado por 10 épocas no primeiro stage e 10 épocas no segundo stage,avaliado com Acurácia, Precisão, Recall e F1-Score.
  
  
  Vídeo Explicativo
@@ -26,7 +26,7 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
  aplicação que foi realizada, e as comparações entre as abordagens de 
  Feature Extractor e Fine-Tuning, destacando os passos de implementação 
  adaptaçoes, e os resultados obtidos 
- Link []
+ Link :https://drive.google.com/file/d/1Zr9T1z7ZLDPJaMtzcdHPiQ7XJyHpp__E/view?usp=sharing
 
 Base de Dados
 
