@@ -16,6 +16,7 @@ Nesta abordagem, usamos o modelo AlexNet pré-treinado para extrair característ
 As imagens foram processadas, e suas características foram extraídas e usadas para treinar um modelo de Regressão Logística. O desempenho do modelo foi avaliado com métricas de Acurácia e F1-Score.
 
 Fine-Tuning
+
 Na abordagem de Fine- Tuning o modelo AlexNet pré-treinado foi utilizado com  as camadas convolucionais congeladas, ajustando apenas a camada final,  para adaptar o modelo  à tarefa específica. O modelo foi treinado em duas fases 10 épocas no  primeiro estágio, e 5 épocas no segundo estágio, o desempenho foi avaliado utilizando as métricas, Acurácia, Precisão, Recall e F1-Score.
  
  
@@ -32,6 +33,7 @@ Na abordagem de Fine- Tuning o modelo AlexNet pré-treinado foi utilizado com  a
  Artigo Medium
  Além do vídeo, foi elaborado um artigo no Medium detalhando a atividade realizada, com uma explicação sobre as técnicas 
  utilizadas, os resultados obtidos e as conclusões tiradas a partir da análise dos experimentos.
+ 
  Leia o artigo no Medium aqui
  
  Link :https://medium.com/@sayonaraufrn/universidade-federal-do-rio-grande-do-norte-bce54cbf8c10
