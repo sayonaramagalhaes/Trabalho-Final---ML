@@ -28,6 +28,10 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
  adaptaçoes, e os resultados obtidos 
  Link :https://drive.google.com/file/d/1Zr9T1z7ZLDPJaMtzcdHPiQ7XJyHpp__E/view?usp=sharing
 
+ Artigo Medium
+ Um artigo no Medium com a descrição da atividade realizada 
+ Link :https://medium.com/@sayonaraufrn/universidade-federal-do-rio-grande-do-norte-bce54cbf8c10
+
 Base de Dados
 
 O conjunto de dados utilizado foi o Cats vs Dogs, disponível no Kaggle. Este conjunto contém 25.000 imagens divididas entre as classes "Cachorro" e "Gato".
