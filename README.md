@@ -31,6 +31,7 @@ Utilizamos o modelo AlexNet pré-treinado, congelando as camadas convolucionais 
 
  Artigo Medium
  artigo no Medium com a descrição da atividade realizada 
+ 
  Link :https://medium.com/@sayonaraufrn/universidade-federal-do-rio-grande-do-norte-bce54cbf8c10
 
 Base de Dados
