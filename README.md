@@ -25,7 +25,7 @@ Na abordagem de Fine- Tuning o modelo AlexNet pré-treinado foi utilizado com  a
  Um vídeo explicativo sobre as técnicas de Transfer Learning, e a 
  aplicação que foi realizada, e as comparações entre as abordagens de 
  Feature Extractor e Fine-Tuning, destacando os passos de implementação 
- adaptaçoes, e os resultados obtidos. 
+ adaptações, e os resultados obtidos. 
  
  Assita ao vídeo aqui 
  
